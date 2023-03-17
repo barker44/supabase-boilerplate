@@ -1,1 +1,30 @@
 /* Add screen styles below */
+/* Used https://www.w3schools.com/css/css_table_style.asp for a lot of this*/
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    margin:0 auto; 
+    border-style: solid;
+}
+td {
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    padding: 14px;
+  }
+
+  tr:hover {
+    background-color: rgb(131, 198, 236);
+}
+
+  th {
+    background-color: #3cbbe2;
+    color: white;
+    border-bottom: 1px solid #ddd;
+    padding: 14px;
+  }
+
